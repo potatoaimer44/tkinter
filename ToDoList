@@ -29,3 +29,5 @@ add_button.pack(pady=5)
 delete_button = Button(root, text="Delete Task", command=delete_task)
 delete_button.pack(pady=5)
 root.mainloop()
+
+var = "add text for proof"
