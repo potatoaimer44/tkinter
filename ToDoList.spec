@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['ToDoList'],
+    ['ToDoList.py'],
     pathex=[],
     binaries=[],
     datas=[],
