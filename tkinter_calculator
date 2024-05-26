@@ -2,6 +2,7 @@ from tkinter import *
 
 root = Tk()
 root.title("Simple Calculator")
+root.configure(bg="black")
 
 e = Entry(root, width=40, borderwidth=5)
 e.grid(row=0, column=0, columnspan=5, padx=10, pady=10)
@@ -70,7 +71,7 @@ button_0 = Button(root, text="0", padx=40, pady=20, command=lambda: button_click
 
 button_add = Button(root, text="+", padx=40, pady=20, command=button_add,bg="orange", fg="white")
 button_equal = Button(root, text="=", padx=40, pady=20, command=button_equal,bg="purple", fg="white")
-button_clear = Button(root, text="Clear", padx=35, pady=20, command=button_clear,bg="red", fg="white")
+button_clear = Button(root, text="Clear", padx=25, pady=20, command=button_clear,bg="red", fg="white")
 
 button_subtract = Button(root, text="-", padx=41, pady=20, command=button_subtract,bg="darkgreen", fg="white")
 button_multiply = Button(root, text="*", padx=40, pady=20, command=button_multiply,bg="darkblue", fg="white")
